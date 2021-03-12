@@ -1,5 +1,8 @@
-import {Game, GameSavingData} from '../Game/game.js'
+import Game, {GameSavingData} from '../Game/game.js';
 import {readGameSaving as loadGame, writeGameSaving as saveGame} from '../Game/game.js';
+
+
+
 
 console.log(Game);
 console.log(GameSavingData);

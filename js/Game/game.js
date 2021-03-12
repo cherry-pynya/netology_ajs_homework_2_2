@@ -1,8 +1,10 @@
-import * as character from '../Domain/domain.js';
+import Character from '../Domain/domain.js';
+
+const paladin = new Character('Uther');
+console.log(paladin);
 
 
-
-export class Game {
+export default class Game {
     start() {
       console.log('game started');
     }
@@ -10,17 +12,18 @@ export class Game {
   
 
 
-  export class GameSavingData {
+class GameSavingData {
 
-  };
+};
   
-  export function readGameSaving() {
+function readGameSaving() {
 
-  };
+};
   
-  export function writeGameSaving() {
+function writeGameSaving() {
 
-  };
+};
 
+export {GameSavingData, readGameSaving, writeGameSaving}
 
   
